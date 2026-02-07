@@ -57,7 +57,7 @@ The project utilizes a dataset containing:
 - **Data Distribution**: Stock prices display normal distribution while trading volumes show uniform distribution
 
 
-<img width="275" height="225" alt="image" src="https://github.com/user-attachments/assets/b3b591b2-d8c8-40cd-914f-10b09c7ce21b" /> <img width="275" height="225" alt="image" src="https://github.com/user-attachments/assets/89e9b621-7008-41fe-9623-5b9b5841ca6a" />   <img width="275" height="225" alt="image" src="https://github.com/user-attachments/assets/d88813f9-81fd-45b4-a144-30ef86261502" />
+<img width="275" height="225" alt="image" src="https://github.com/user-attachments/assets/b3b591b2-d8c8-40cd-914f-10b09c7ce21b" /> <img width="275" height="225" alt="image" src="https://github.com/user-attachments/assets/89e9b621-7008-41fe-9623-5b9b5841ca6a" /><img width="275" height="225" alt="image" src="https://github.com/user-attachments/assets/d88813f9-81fd-45b4-a144-30ef86261502" />
 <img width="1000" height="100" alt="image" src="https://github.com/user-attachments/assets/90d48823-8b1b-41b2-ba83-443cd2408ffd" />
 
 
