@@ -125,7 +125,7 @@ After hyperparameter optimization with GridSearchCV:
 
 
 <img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/44387ec1-7bae-4a6a-af65-954967ad8038" />
-   <img width="200" height="250" alt="image" src="https://github.com/user-attachments/assets/aedf6a3b-b294-415a-ab5a-cce4eb5f68f5" />   <img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/134b47a0-1618-40c7-b941-fcd5784f2670" />
+   <img width="200" height="220" alt="image" src="https://github.com/user-attachments/assets/aedf6a3b-b294-415a-ab5a-cce4eb5f68f5" />   <img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/134b47a0-1618-40c7-b941-fcd5784f2670" />
 
 
 
@@ -149,7 +149,7 @@ The testing confusion matrix reveals:
 
 
 
-<img width="380" height="375" alt="image" src="https://github.com/user-attachments/assets/45f3b33f-b26a-48ce-9b9a-9a3808b5fc9e" />    <img width="380" height="375" alt="image" src="https://github.com/user-attachments/assets/ed389b1b-896e-4e62-aaa3-5c442990ed4f" />
+<img width="390" height="375" alt="image" src="https://github.com/user-attachments/assets/45f3b33f-b26a-48ce-9b9a-9a3808b5fc9e" />    <img width="390" height="375" alt="image" src="https://github.com/user-attachments/assets/ed389b1b-896e-4e62-aaa3-5c442990ed4f" />
 
 
 
