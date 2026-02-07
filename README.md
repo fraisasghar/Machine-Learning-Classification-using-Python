@@ -78,7 +78,8 @@ The decision tree uses the following splitting criteria:
 
 
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2c163f89-19ae-4fcc-ae59-11af5621ae7f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5aba300c-1dd2-4e2c-bbbe-36130c36471b" />
+
 
 
 ### Key Decision Points
@@ -92,6 +93,63 @@ The following tree structure illustrates the classification logic:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28b7022c-dc23-4b35-bebd-0c5d5ebc7106" />
 
+
+## Model Performance Analysis
+
+### Classification Results Comparison
+
+This section presents the comprehensive evaluation of the Decision Tree classifier before and after hyperparameter tuning. The analysis includes precision, recall, F1-scores, and confusion matrices to assess model effectiveness.
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a5b30633-424e-4125-9059-316673f58c53" />
+
+
+
+
+####  Pre-Tuning Performance
+The initial model shows strong overall performance with 90% accuracy. Key observations:
+- **AAL**: Perfect classification (1.00 across all metrics)
+- **ABT**: High performance with 0.95 precision and 0.93 F1-score
+- **ACN**: Lower precision (0.70) but good recall (0.88)
+- **AAPL**: Perfect precision but lower recall (0.33) due to limited samples
+
+####  Post-Tuning Performance
+After hyperparameter optimization with GridSearchCV:
+- **Overall Accuracy**: Improved to 91%
+- **ABBV**: Enhanced performance (0.93 F1-score)
+- **ABC**: Improved recall (0.93)
+- **ACN**: Zero predictions due to class imbalance
+- **Trade-offs**: Some classes show precision-recall trade-offs after tuning
+
+
+
+
+<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/44387ec1-7bae-4a6a-af65-954967ad8038" />
+   <img width="200" height="250" alt="image" src="https://github.com/user-attachments/assets/aedf6a3b-b294-415a-ab5a-cce4eb5f68f5" />   <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/134b47a0-1618-40c7-b941-fcd5784f2670" />
+
+
+
+## Confusion Matrix Analysis
+
+### Training Data Results
+The training confusion matrix demonstrates:
+- **Diagonal Dominance**: Strong diagonal values indicate correct predictions
+- **Class Separation**: Clear distinction between most stock classes
+- **Minor Misclassifications**: Some confusion between similar stock patterns
+- **Training Fit**: Model shows good learning from training data
+
+### Testing Data Results
+The testing confusion matrix reveals:
+- **Generalization**: Model maintains performance on unseen data
+- **Consistency**: Similar patterns to training matrix
+- **Real-world Performance**: Good applicability to new data
+- **Robustness**: Stable predictions across different stock classes
+
+
+
+
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/45f3b33f-b26a-48ce-9b9a-9a3808b5fc9e" />    <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ed389b1b-896e-4e62-aaa3-5c442990ed4f" />
 
 
 
