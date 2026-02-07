@@ -153,3 +153,48 @@ The testing confusion matrix reveals:
 
 
 
+
+## Decision Boundary Visualization
+
+### Model Decision Analysis
+The decision boundary plot provides a visual representation of how the Decision Tree classifier separates different stock classes in the feature space. This visualization helps understand the model's classification logic and feature importance.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0c2b5cf-1fe0-4f13-9727-8486b19ca408" />
+
+
+
+
+###  Plot Interpretation
+The decision boundary shows:
+- **X-axis**: Stock Price (Primary feature for classification)
+- **Y-axis**: Trading Volume (Secondary feature influencing decisions)
+- **Colored Regions**: Different areas representing classified stock symbols
+- **Boundary Lines**: Decision thresholds learned by the model
+
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6533de51-60a6-4f35-b29c-09077b3dab3d" />
+
+
+
+## Conclusion
+
+This project successfully demonstrates the application of machine learning classification techniques for stock market analysis using Python. Through comprehensive data preprocessing, exploratory analysis, and model development, the Decision Tree classifier achieved **91% accuracy** in classifying different stocks based on price and volume features.
+
+
+
+<div align="center">
+
+🎉 **Enjoy Your Machine Learning** 🎉
+
+If this project helped or inspired you,  
+give it a ⭐ **Star** on GitHub!
+
+**Built with precision ❤️ for the Engineering Community**  
+**Happy Designing!** ✨
+
+</div>
+
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
+</div>
