@@ -17,8 +17,6 @@
 </div>
 
 
-
-
 ## Introduction
 
 This project implements machine learning classification techniques using Python to analyze and interpret data patterns. The primary focus is on applying Decision Tree algorithms to classify data based on key features, with comprehensive evaluation through various performance metrics and visualization tools.
@@ -74,13 +72,7 @@ The decision tree uses the following splitting criteria:
 - **Samples**: Number of data points at each node
 - **Value Array**: Distribution of stock classes [AAL, AAP, AAPL, ABBV, ABC, ABT, ACN]
 
-
-
-
-
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5aba300c-1dd2-4e2c-bbbe-36130c36471b" />
-
-
 
 ### Key Decision Points
 1. **Root Node**: Initial split based on trading volume
@@ -100,11 +92,7 @@ The following tree structure illustrates the classification logic:
 
 This section presents the comprehensive evaluation of the Decision Tree classifier before and after hyperparameter tuning. The analysis includes precision, recall, F1-scores, and confusion matrices to assess model effectiveness.
 
-
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a5b30633-424e-4125-9059-316673f58c53" />
-
-
-
 
 ####  Pre-Tuning Performance
 The initial model shows strong overall performance with 90% accuracy. Key observations:
@@ -121,13 +109,8 @@ After hyperparameter optimization with GridSearchCV:
 - **ACN**: Zero predictions due to class imbalance
 - **Trade-offs**: Some classes show precision-recall trade-offs after tuning
 
-
-
-
 <img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/44387ec1-7bae-4a6a-af65-954967ad8038" />
    <img width="200" height="210" alt="image" src="https://github.com/user-attachments/assets/aedf6a3b-b294-415a-ab5a-cce4eb5f68f5" />   <img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/134b47a0-1618-40c7-b941-fcd5784f2670" />
-
-
 
 ## Confusion Matrix Analysis
 
@@ -145,14 +128,7 @@ The testing confusion matrix reveals:
 - **Real-world Performance**: Good applicability to new data
 - **Robustness**: Stable predictions across different stock classes
 
-
-
-
-
 <img width="390" height="375" alt="image" src="https://github.com/user-attachments/assets/45f3b33f-b26a-48ce-9b9a-9a3808b5fc9e" />    <img width="390" height="375" alt="image" src="https://github.com/user-attachments/assets/ed389b1b-896e-4e62-aaa3-5c442990ed4f" />
-
-
-
 
 ## Decision Boundary Visualization
 
@@ -161,9 +137,6 @@ The decision boundary plot provides a visual representation of how the Decision 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0c2b5cf-1fe0-4f13-9727-8486b19ca408" />
 
-
-
-
 ###  Plot Interpretation
 The decision boundary shows:
 - **X-axis**: Stock Price (Primary feature for classification)
@@ -171,16 +144,11 @@ The decision boundary shows:
 - **Colored Regions**: Different areas representing classified stock symbols
 - **Boundary Lines**: Decision thresholds learned by the model
 
-
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6533de51-60a6-4f35-b29c-09077b3dab3d" />
-
-
 
 ## Conclusion
 
 This project successfully demonstrates the application of machine learning classification techniques for stock market analysis using Python. Through comprehensive data preprocessing, exploratory analysis, and model development, the Decision Tree classifier achieved **91% accuracy** in classifying different stocks based on price and volume features.
-
-
 
 <div align="center">
 
@@ -193,7 +161,6 @@ give it a ⭐ **Star** on GitHub!
 **Happy Designing!** ✨
 
 </div>
-
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
