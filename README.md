@@ -23,7 +23,7 @@ This project implements machine learning classification techniques using Python 
 
 The project demonstrates end-to-end machine learning workflow including data preprocessing, exploratory data analysis, model training, hyperparameter tuning, and performance evaluation using confusion matrices and classification reports.
 
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/34513b4f-ebff-48bb-be00-49c905b96c42" />
+<img alt="image" src="https://github.com/user-attachments/assets/34513b4f-ebff-48bb-be00-49c905b96c42" />
 
 
 ## Objectives
@@ -72,7 +72,7 @@ The decision tree uses the following splitting criteria:
 - **Samples**: Number of data points at each node
 - **Value Array**: Distribution of stock classes [AAL, AAP, AAPL, ABBV, ABC, ABT, ACN]
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5aba300c-1dd2-4e2c-bbbe-36130c36471b" />
+<img alt="image" src="https://github.com/user-attachments/assets/5aba300c-1dd2-4e2c-bbbe-36130c36471b" />
 
 ### Key Decision Points
 1. **Root Node**: Initial split based on trading volume
@@ -83,7 +83,7 @@ The decision tree uses the following splitting criteria:
 ### Visual Representation
 The following tree structure illustrates the classification logic:
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28b7022c-dc23-4b35-bebd-0c5d5ebc7106" />
+<img alt="image" src="https://github.com/user-attachments/assets/28b7022c-dc23-4b35-bebd-0c5d5ebc7106" />
 
 
 ## Model Performance Analysis
@@ -92,7 +92,7 @@ The following tree structure illustrates the classification logic:
 
 This section presents the comprehensive evaluation of the Decision Tree classifier before and after hyperparameter tuning. The analysis includes precision, recall, F1-scores, and confusion matrices to assess model effectiveness.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a5b30633-424e-4125-9059-316673f58c53" />
+<img alt="image" src="https://github.com/user-attachments/assets/a5b30633-424e-4125-9059-316673f58c53" />
 
 ####  Pre-Tuning Performance
 The initial model shows strong overall performance with 90% accuracy. Key observations:
@@ -135,7 +135,7 @@ The testing confusion matrix reveals:
 ### Model Decision Analysis
 The decision boundary plot provides a visual representation of how the Decision Tree classifier separates different stock classes in the feature space. This visualization helps understand the model's classification logic and feature importance.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0c2b5cf-1fe0-4f13-9727-8486b19ca408" />
+<img alt="image" src="https://github.com/user-attachments/assets/f0c2b5cf-1fe0-4f13-9727-8486b19ca408" />
 
 ###  Plot Interpretation
 The decision boundary shows:
@@ -144,7 +144,7 @@ The decision boundary shows:
 - **Colored Regions**: Different areas representing classified stock symbols
 - **Boundary Lines**: Decision thresholds learned by the model
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6533de51-60a6-4f35-b29c-09077b3dab3d" />
+<img alt="image" src="https://github.com/user-attachments/assets/6533de51-60a6-4f35-b29c-09077b3dab3d" />
 
 ## Conclusion
 
