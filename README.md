@@ -1,5 +1,5 @@
 
-<!--------|---------|---------|------------------- Main Banner  ------------------------------------------------------------------>
+<!--------|---------|---------|------------------- Main Banner  ----------------------------------------------------------------->
 <div align="center">
   
   ![Project Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Machine+Learning+Classification+Using+Python&fontSize=40&fontColor=ffffff&animation=twinkling&desc=Data+Analysis+%7C+Visualization+%7C+Model+Evaluation&descSize=18&descAlignY=70)
