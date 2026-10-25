@@ -176,6 +176,32 @@ The decision boundary shows:
 
 <img alt="image" src="https://github.com/user-attachments/assets/6533de51-60a6-4f35-b29c-09077b3dab3d" />
 
+
+
+
+## Quick start
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/fraisasghar/Machine-Learning-Classification-using-Python.git
+cd Machine-Learning-Classification-using-Python
+```
+
+### 2. Install the required libraries
+
+```bash
+python -m pip install numpy pandas matplotlib seaborn scikit-learn jupyter
+```
+
+### 3. Run the project
+
+Open the project notebooks or Python scripts in the repository and execute them in the appropriate order. If using Jupyter Notebook, run:
+
+```bash
+jupyter notebook
+```
+
 ## Conclusion
 
 This project successfully demonstrates the application of machine learning classification techniques for stock market analysis using Python. Through comprehensive data preprocessing, exploratory analysis, and model development, the Decision Tree classifier achieved **91% accuracy** in classifying different stocks based on price and volume features.
